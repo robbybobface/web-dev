@@ -6,7 +6,7 @@
 /.pnp
 .pnp.js
 /public/vendors
-
+/src/vendors
 # testing
 /coverage
 

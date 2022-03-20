@@ -12,10 +12,10 @@ function App() {
         <BrowserRouter>
             <div className="container">
                 <Routes>
-                    <Route exact path="/hello" element={<HelloWorld/>}/>
-                    <Route exact path="/" element={<Labs/>}/>
-                    <Route exact path="/labs" element={<Labs/>}/>
-                    <Route exact path="/tuiter" element={<Tuiter/>}/>
+                    <Route exact={true} path="/hello" element={<HelloWorld/>}/>
+                    <Route exact={true} path="/" element={<Labs/>}/>
+                    <Route exact={true} path="/labs" element={<Labs/>}/>
+                    <Route exact={true} path="/tuiter" element={<Tuiter/>}/>
                 </Routes>
             </div>
         </BrowserRouter>

@@ -9,18 +9,18 @@ const Index = () => {
     return (
         <>
             <h1>Labs</h1>
+            <ConditionalOutput/>
+            <Styles/>
+            <Classes/>
+            <h1>TODO List</h1>
+            <TodoList/>
+            <h1>React Links</h1>
             <Link to="/hello">
                 Hello
             </Link> |
             <Link to="/tuiter">
                 Tuiter
             </Link>
-            <ConditionalOutput/>
-            <Styles/>
-            <Classes/>
-            <h1>TODO List</h1>
-            <TodoList/>
-
         </>
 
     );

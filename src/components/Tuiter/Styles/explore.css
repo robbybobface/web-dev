@@ -469,6 +469,10 @@
 
 /* XL Content Settings */
 @media (min-width: 1200px) and (max-width: 1399px) {
+  .fa-cog {
+    padding-top: 12px;
+  }
+
   .wd-searchbar > input[type=text] {
     height: 35px;
     font-size: 15px;
@@ -549,6 +553,10 @@
 
 /* L Content Settings */
 @media (min-width: 992px) and (max-width: 1199px) {
+  .fa-cog {
+    padding-top: 12px;
+  }
+
   .fa-inbox {
     margin-left: 2px;
   }
@@ -654,6 +662,10 @@
 
 /* M Content Settings */
 @media (min-width: 768px) and (max-width: 991px) {
+  .fa-cog {
+    padding-top: 12px;
+  }
+
   .fa-twitter {
     margin-left: 18px;
   }
@@ -776,6 +788,10 @@
 
 /* S Content Settings */
 @media (min-width: 576px) and (max-width: 767px) {
+  .fa-cog {
+    padding-top: 12px;
+  }
+
   .fa-twitter {
     margin-left: 3px;
   }
@@ -923,6 +939,10 @@
 
 /* XS Content Settings */
 @media (max-width: 575px) {
+  .fa-cog {
+    padding-top: 12px;
+  }
+
   .fa-twitter {
     margin-left: 3px;
   }

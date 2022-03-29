@@ -7,7 +7,7 @@ import HelloWorld from "./components/HelloWorld.js";
 import Labs from "./components/Labs/index.js";
 import Tuiter from "./components/Tuiter/index.js";
 import HomeScreen from "./components/Tuiter/HomeScreen";
-import ExploreScreen from "./components/Tuiter/ExploreScreen/ExploreScreen";
+import ExploreScreen from "./components/Tuiter/ExploreScreen";
 
 function App() {
     return (
@@ -20,16 +20,12 @@ function App() {
                         <Route path="hello"
                                element={<HelloWorld/>}/>
                         <Route path="tuiter"
-                               exact={true}
                                element={<Tuiter/>}>
                             <Route index
-                                   exact={true}
                                    element={<HomeScreen/>}/>
                             <Route path="home"
-                                   exact={true}
                                    element={<HomeScreen/>}/>
                             <Route path="explore"
-                                   exact={true}
                                    element={<ExploreScreen/>}/>
                         </Route>
                     </Route>

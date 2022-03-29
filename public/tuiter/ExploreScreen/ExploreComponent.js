@@ -13,35 +13,35 @@ const ExploreComponent = () => {
               <div class="d-none d-md-block">   
                <ul class="nav nav-tabs wd-content-tabs wd-categories-tabs wd-override-tabs nav-fill">
                   <li class="nav-item">
-                    <a class="nav-link wd-override-nav-link active" href="../old-for-you.html">For you</a>
+                    <a class="nav-link wd-override-nav-link active" href="../for-you.html">For you</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link wd-override-nav-link" href="../old-trending.html">Trending</a>
+                    <a class="nav-link wd-override-nav-link" href="../trending.html">Trending</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link wd-override-nav-link" href="../old-news.html">News</a>
+                   <a class="nav-link wd-override-nav-link" href="../news.html">News</a>
                  </li>
                   <li class="nav-item">
-                   <a class="nav-link wd-override-nav-link" href="../old-sports.html" tabindex="-1">Sports</a>
+                   <a class="nav-link wd-override-nav-link" href="../sports.html" tabindex="-1">Sports</a>
                  </li>
                  <li class="nav-item">
-                    <a class="nav-link wd-override-nav-link" href="../old-entertainment.html" tabindex="-1">Entertainment</a>
+                    <a class="nav-link wd-override-nav-link" href="../entertainment.html" tabindex="-1">Entertainment</a>
                   </li>
                </ul>
               </div>  
               <div class="d-block d-md-none">   
                <ul class="nav nav-tabs wd-content-tabs wd-categories-tabs wd-override-tabs nav-fill">
                   <li class="nav-item">
-                    <a class="nav-link wd-override-nav-link active" href="../old-for-you.html">For you</a>
+                    <a class="nav-link wd-override-nav-link active" href="../for-you.html">For you</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link wd-override-nav-link" href="../old-trending.html">Trending</a>
+                    <a class="nav-link wd-override-nav-link" href="../trending.html">Trending</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link wd-override-nav-link" href="../old-news.html">News</a>
+                   <a class="nav-link wd-override-nav-link" href="../news.html">News</a>
                  </li>
                   <li class="nav-item">
-                   <a class="nav-link wd-override-nav-link" href="../old-sports.html" tabindex="-1">Sports</a>
+                   <a class="nav-link wd-override-nav-link" href="../sports.html" tabindex="-1">Sports</a>
                  </li>
                </ul>
               </div> 

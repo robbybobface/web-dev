@@ -7,26 +7,26 @@ const NavigationSidebar = () => {
                      aria-current="true">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="../old-home.html" 
+                    <a href="../home.html" 
                     class="list-group-item list-group-item-action wd-list-group-item-override">
                       <i class="fas fa-home ms-0 pe-1"></i>Home</a>
-                    <a href="../old-explore.html" 
+                    <a href="../explore.html" 
                     class="list-group-item list-group-item-action active wd-list-group-item-override">
                       <i class="fas fa-hashtag pe-2"></i>Explore</a>
-                      <a href="../old-notifications.html"
+                      <a href="../notifications.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-bell pe-2"></i>Notifications</a>
-                  <a href="../old-messages.html"
+                  <a href="../messages.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override"
                      aria-disabled="true">
                     <i class="fas fa-inbox pe-1"></i>Messages</a>
-                  <a href="../old-bookmarks.html"
+                  <a href="../bookmarks.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-bookmark ms-1 pe-2"></i>Bookmarks</a>
-                  <a href="../old-lists.html"
+                  <a href="../lists.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-list-ul pe-2"></i>Lists</a>
-                  <a href="../old-profile.html"
+                  <a href="../profile.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-user pe-2"></i>Profile</a>
                   <a href="#"
@@ -50,24 +50,24 @@ const NavigationSidebar = () => {
                      aria-current="true">
                     <i class="fab fa-twitter"></i>
                   </a>
-                  <a href="../old-home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
+                  <a href="../home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-home ms-0 pe-1"></i>Home</a>
-                  <a href="../old-explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
+                  <a href="../explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
                     <i class="fas fa-hashtag pe-2"></i>Explore</a>
-                  <a href="../old-notifications.html"
+                  <a href="../notifications.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-bell pe-2"></i>Notifications</a>
-                  <a href="../old-messages.html"
+                  <a href="../messages.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override"
                      aria-disabled="true">
                     <i class="fas fa-inbox pe-1"></i>Messages</a>
-                  <a href="../old-bookmarks.html"
+                  <a href="../bookmarks.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-bookmark ms-1 pe-2"></i>Bookmarks</a>
-                  <a href="../old-lists.html"
+                  <a href="../lists.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-list-ul pe-2"></i>Lists</a>
-                  <a href="../old-profile.html"
+                  <a href="../profile.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-user pe-2"></i>Profile</a>
                   <a href="#"
@@ -80,7 +80,7 @@ const NavigationSidebar = () => {
                 </div>
                 <ul class="nav nav-pills nav-fill">
                   <li class="nav-item">
-                    <a class="nav-link wd-nav-link-override active" href="../old-tuit.html">Tuit</a>
+                    <a class="nav-link wd-nav-link-override active" href="../tuit.html">Tuit</a>
                   </li>
                 </ul>
         </div>
@@ -91,24 +91,24 @@ const NavigationSidebar = () => {
                      aria-current="true">
                     <i class="fab fa-twitter"></i>
                   </a>
-                  <a href="../old-home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
+                  <a href="../home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-home ms-0 pe-1"></i></a>
-                  <a href="../old-explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
+                  <a href="../explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
                     <i class="fas fa-hashtag ms-1 pe-1"></i></a>
-                  <a href="../old-notifications.html"
+                  <a href="../notifications.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-bell ms-1 pe-2"></i></a>
-                  <a href="../old-messages.html"
+                  <a href="../messages.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override"
                      aria-disabled="true">
                     <i class="fas fa-inbox pe-1"></i></a>
-                  <a href="../old-bookmarks.html"
+                  <a href="../bookmarks.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-bookmark pe-2"></i></a>
-                  <a href="../old-lists.html"
+                  <a href="../lists.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-list-ul ms-1 pe-2"></i></a>
-                  <a href="../old-profile.html"
+                  <a href="../profile.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-user spe-2"></i></a>
                   <a href="#"
@@ -121,7 +121,7 @@ const NavigationSidebar = () => {
                 </div>
                 <ul class="nav nav-pills nav-fill">
                   <li class="nav-item">
-                    <a class="nav-link wd-nav-link-override active" href="../old-tuit.html">Tuit</a>
+                    <a class="nav-link wd-nav-link-override active" href="../tuit.html">Tuit</a>
                   </li>
                 </ul>
         </div>
@@ -132,24 +132,24 @@ const NavigationSidebar = () => {
                     aria-current="true">
                    <i class="fab fa-twitter"></i>
                  </a>
-                 <a href="../old-home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
+                 <a href="../home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-home pe-1"></i></a>
-                 <a href="../old-explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
+                 <a href="../explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
                    <i class="fas fa-hashtag pe-1"></i></a>
-                 <a href="../old-notifications.html"
+                 <a href="../notifications.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-bell pe-2"></i></a>
-                 <a href="../old-messages.html"
+                 <a href="../messages.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override"
                     aria-disabled="true">
                    <i class="fas fa-inbox pe-1"></i></a>
-                 <a href="../old-bookmarks.html"
+                 <a href="../bookmarks.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-bookmark pe-2"></i></a>
-                 <a href="../old-lists.html"
+                 <a href="../lists.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-list-ul pe-2"></i></a>
-                 <a href="../old-profile.html"
+                 <a href="../profile.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-user spe-2"></i></a>
                  <a href="#"
@@ -162,7 +162,7 @@ const NavigationSidebar = () => {
                 </div>
                 <ul class="nav nav-pills nav-fill">
                   <li class="nav-item">
-                    <a class="nav-link wd-nav-link-override active" href="../old-tuit.html">Tuit</a>
+                    <a class="nav-link wd-nav-link-override active" href="../tuit.html">Tuit</a>
                   </li>
                 </ul>
         </div>
@@ -173,24 +173,24 @@ const NavigationSidebar = () => {
                     aria-current="true">
                    <i class="fab fa-twitter"></i>
                  </a>
-                 <a href="../old-home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
+                 <a href="../home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-home pe-1"></i></a>
-                 <a href="../old-explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
+                 <a href="../explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
                    <i class="fas fa-hashtag pe-1"></i></a>
-                 <a href="../old-notifications.html"
+                 <a href="../notifications.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-bell pe-2"></i></a>
-                 <a href="../old-messages.html"
+                 <a href="../messages.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override"
                     aria-disabled="true">
                    <i class="fas fa-inbox pe-1"></i></a>
-                 <a href="../old-bookmarks.html"
+                 <a href="../bookmarks.html"
                    class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-bookmark pe-2"></i></a>
-                 <a href="../old-lists.html"
+                 <a href="../lists.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-list-ul pe-2"></i></a>
-                 <a href="../old-profile.html"
+                 <a href="../profile.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-user spe-2"></i></a>
                  <a href="#"
@@ -203,7 +203,7 @@ const NavigationSidebar = () => {
                 </div>
                 <ul class="nav nav-pills nav-fill">
                   <li class="nav-item">
-                    <a class="nav-link wd-nav-link-override active" href="../old-tuit.html">Tuit</a>
+                    <a class="nav-link wd-nav-link-override active" href="../tuit.html">Tuit</a>
                   </li>
                 </ul>
         </div>
@@ -214,24 +214,24 @@ const NavigationSidebar = () => {
                    aria-current="true">
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a href="../old-home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
+                <a href="../home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
                   <i class="fas fa-home pe-1"></i></a>
-                <a href="../old-explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
+                <a href="../explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
                   <i class="fas fa-hashtag pe-1"></i></a>
-                <a href="../old-notifications.html"
+                <a href="../notifications.html"
                    class="list-group-item list-group-item-action wd-list-group-item-override">
                   <i class="fas fa-bell pe-2"></i></a>
-                <a href="../old-messages.html"
+                <a href="../messages.html"
                    class="list-group-item list-group-item-action wd-list-group-item-override"
                    aria-disabled="true">
                   <i class="fas fa-inbox pe-1"></i></a>
-                <a href="../old-bookmarks.html"
+                <a href="../bookmarks.html"
                    class="list-group-item list-group-item-action wd-list-group-item-override">
                   <i class="fas fa-bookmark pe-2"></i></a>
-                <a href="../old-lists.html"
+                <a href="../lists.html"
                    class="list-group-item list-group-item-action wd-list-group-item-override">
                   <i class="fas fa-list-ul pe-2"></i></a>
-                <a href="../old-profile.html"
+                <a href="../profile.html"
                    class="list-group-item list-group-item-action wd-list-group-item-override">
                   <i class="fas fa-user spe-2"></i></a>
                 <a href="#"
@@ -244,7 +244,7 @@ const NavigationSidebar = () => {
               </div>
               <ul class="nav nav-pills nav-fill">
                 <li class="nav-item">
-                  <a class="nav-link wd-nav-link-override active" href="../old-tuit.html">Tuit</a>
+                  <a class="nav-link wd-nav-link-override active" href="../tuit.html">Tuit</a>
                 </li>
               </ul>
         </div>

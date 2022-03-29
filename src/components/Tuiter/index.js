@@ -45,7 +45,6 @@ const Tuiter = () => {
                 </div>
             </Provider>
 
-            {/*<ExploreScreen/>*/}
             <h1>React Links</h1>
             <Link to="/hello">
                 Hello

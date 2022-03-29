@@ -6,8 +6,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HelloWorld from "./components/HelloWorld.js";
 import Labs from "./components/Labs/index.js";
 import Tuiter from "./components/Tuiter/index.js";
-import ExploreComponent from "./components/Tuiter/ExploreScreen/ExploreComponent";
 import HomeScreen from "./components/Tuiter/HomeScreen";
+import ExploreScreen from "./components/Tuiter/ExploreScreen";
 
 function App() {
     return (
@@ -15,7 +15,7 @@ function App() {
             <div className="container">
                 <Routes>
                     <Route path="/">
-                        <Route index element={<Labs/>}/>
+                        <Route index exact={true} element={<Labs/>}/>
                         <Route path="labs" exact={true} element={<Labs/>}/>
                         <Route path="hello"
                                element={<HelloWorld/>}/>
@@ -26,7 +26,7 @@ function App() {
                             <Route path="home"
                                    element={<HomeScreen/>}/>
                             <Route path="explore"
-                                   element={<ExploreComponent/>}/>
+                                   element={<ExploreScreen/>}/>
                         </Route>
                     </Route>
                 </Routes>

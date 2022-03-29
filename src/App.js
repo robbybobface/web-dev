@@ -8,6 +8,7 @@ import Labs from "./components/Labs/index.js";
 import Tuiter from "./components/Tuiter/index.js";
 import ExploreComponent from "./components/Tuiter/ExploreScreen/ExploreComponent";
 import HomeScreen from "./components/Tuiter/HomeScreen";
+import ExploreScreen from "./components/Tuiter/ExploreScreen/ExploreScreen";
 
 function App() {
     return (
@@ -30,7 +31,7 @@ function App() {
                                    element={<HomeScreen/>}/>
                             <Route path="explore"
                                    exact={true}
-                                   element={<ExploreComponent/>}/>
+                                   element={<ExploreScreen/>}/>
                         </Route>
                     </Route>
                 </Routes>

@@ -1,9 +1,11 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 
 const NavigationSidebar = (
     {
-        active = 'explore'
-    }) => {
+        active = 'home'
+    }
+) => {
     return (
         <>
             <div className="d-none d-xxl-block">
@@ -13,32 +15,32 @@ const NavigationSidebar = (
                        aria-current="true">
                         <i className="fab fa-twitter"/>
                     </a>
-                    <a href="../../../../public/tuiter/home.html"
+                    <a href="home"
                        className={`list-group-item list-group-item-action wd-list-group-item-override 
                        ${active === 'home' ? 'active' : ""} wd-list-group-item-override`}>
                         <i className="fas fa-home ms-0 pe-1"/>Home</a>
-                    <a href="../../../../public/tuiter/explore.html"
+                    <a href="explore"
                        className={`list-group-item list-group-item-action ${active === 'explore'
                            ? 'active' : ""} wd-list-group-item-override`}>
                         <i className="fas fa-hashtag pe-2"/>Explore</a>
-                    <a href="../../../../public/tuiter/notifications.html"
+                    <a href="notifications"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'notifications' ? 'active' : ""}`}>
                         <i className="fas fa-bell pe-2"/>Notifications</a>
-                    <a href="../../../../public/tuiter/messages.html"
+                    <a href="messages"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'messages' ? 'active' : ""}`}
                        aria-disabled="true">
                         <i className="fas fa-inbox pe-1"/>Messages</a>
-                    <a href="../../../../public/tuiter/bookmarks.html"
+                    <a href="bookmarks"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'bookmarks' ? 'active' : ""}`}>
                         <i className="fas fa-bookmark ms-1 pe-2"/>Bookmarks</a>
-                    <a href="../../../../public/tuiter/lists.html"
+                    <a href="lists"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'lists' ? 'active' : ""}`}>
                         <i className="fas fa-list-ul pe-2"/>Lists</a>
-                    <a href="../../../../public/tuiter/profile.html"
+                    <a href="profile"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'profile' ? 'active' : ""}`}>
                         <i className="fas fa-user pe-2"/>Profile</a>
@@ -65,32 +67,32 @@ const NavigationSidebar = (
                        aria-current="true">
                         <i className="fab fa-twitter"/>
                     </a>
-                    <a href="../../../../public/tuiter/home.html"
+                    <a href="home"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'home' ? 'active' : ""}`}>
                         <i className="fas fa-home ms-0 pe-1"/>Home</a>
-                    <a href="../../../../public/tuiter/explore.html"
+                    <a href="explore"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'explore' ? 'active' : ""}`}>
                         <i className="fas fa-hashtag pe-2"/>Explore</a>
-                    <a href="../../../../public/tuiter/notifications.html"
+                    <a href="notifications"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'notifications' ? 'active' : ""}`}>
                         <i className="fas fa-bell pe-2"/>Notifications</a>
-                    <a href="../../../../public/tuiter/messages.html"
+                    <a href="messages"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'messages' ? 'active' : ""}`}
                        aria-disabled="true">
                         <i className="fas fa-inbox pe-1"/>Messages</a>
-                    <a href="../../../../public/tuiter/bookmarks.html"
+                    <a href="bookmarks"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'bookmarks' ? 'active' : ""}`}>
                         <i className="fas fa-bookmark ms-1 pe-2"/>Bookmarks</a>
-                    <a href="../../../../public/tuiter/lists.html"
+                    <a href="lists"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'lists' ? 'active' : ""}`}>
                         <i className="fas fa-list-ul pe-2"/>Lists</a>
-                    <a href="../../../../public/tuiter/profile.html"
+                    <a href="profile"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'profile' ? 'active' : ""}`}>
                         <i className="fas fa-user pe-2"/>Profile</a>
@@ -117,32 +119,32 @@ const NavigationSidebar = (
                        aria-current="true">
                         <i className="fab fa-twitter"/>
                     </a>
-                    <a href="../../../../public/tuiter/home.html"
+                    <a href="home"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'home' ? 'active' : ""}`}>
                         <i className="fas fa-home ms-0 pe-1"/></a>
-                    <a href="../../../../public/tuiter/explore.html"
+                    <a href="explore"
                        className={`list-group-item list-group-item-action ${active === 'explore'
                            ? 'active' : ""} wd-list-group-item-override`}>
                         <i className="fas fa-hashtag ms-1 pe-1"/></a>
-                    <a href="../../../../public/tuiter/notifications.html"
+                    <a href="notifications"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'notifications' ? 'active' : ""}`}>
                         <i className="fas fa-bell ms-1 pe-2"/></a>
-                    <a href="../../../../public/tuiter/messages.html"
+                    <a href="messages"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'messages' ? 'active' : ""}`}
                        aria-disabled="true">
                         <i className="fas fa-inbox pe-1"/></a>
-                    <a href="../../../../public/tuiter/bookmarks.html"
+                    <a href="bookmarks"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'bookmarks' ? 'active' : ""}`}>
                         <i className="fas fa-bookmark pe-2"/></a>
-                    <a href="../../../../public/tuiter/lists.html"
+                    <a href="lists"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'lists' ? 'active' : ""}`}>
                         <i className="fas fa-list-ul ms-1 pe-2"/></a>
-                    <a href="../../../../public/tuiter/profile.html"
+                    <a href="profile"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'profile' ? 'active' : ""}`}>
                         <i className="fas fa-user spe-2"/></a>
@@ -169,32 +171,32 @@ const NavigationSidebar = (
                        aria-current="true">
                         <i className="fab fa-twitter"/>
                     </a>
-                    <a href="../../../../public/tuiter/home.html"
+                    <a href="home"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'home' ? 'active' : ""}`}>
                         <i className="fas fa-home pe-1"/></a>
-                    <a href="../../../../public/tuiter/explore.html"
+                    <a href="explore"
                        className={`list-group-item list-group-item-action ${active === 'explore'
                            ? 'active' : ""} wd-list-group-item-override`}>
                         <i className="fas fa-hashtag pe-1"/></a>
-                    <a href="../../../../public/tuiter/notifications.html"
+                    <a href="notifications"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'notifications' ? 'active' : ""}`}>
                         <i className="fas fa-bell pe-2"/></a>
-                    <a href="../../../../public/tuiter/messages.html"
+                    <a href="messages"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'messages' ? 'active' : ""}`}
                        aria-disabled="true">
                         <i className="fas fa-inbox pe-1"/></a>
-                    <a href="../../../../public/tuiter/bookmarks.html"
+                    <a href="bookmarks"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'bookmarks' ? 'active' : ""}`}>
                         <i className="fas fa-bookmark pe-2"/></a>
-                    <a href="../../../../public/tuiter/lists.html"
+                    <a href="lists"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'lists' ? 'active' : ""}`}>
                         <i className="fas fa-list-ul pe-2"/></a>
-                    <a href="../../../../public/tuiter/profile.html"
+                    <a href="profile"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'profile' ? 'active' : ""}`}>
                         <i className="fas fa-user spe-2"/></a>
@@ -221,32 +223,32 @@ const NavigationSidebar = (
                        aria-current="true">
                         <i className="fab fa-twitter"/>
                     </a>
-                    <a href="../../../../public/tuiter/home.html"
+                    <a href="home"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'home' ? 'active' : ""}`}>
                         <i className="fas fa-home pe-1"/></a>
-                    <a href="../../../../public/tuiter/explore.html"
+                    <a href="explore"
                        className={`list-group-item list-group-item-action ${active === 'explore'
                            ? 'active' : ""} wd-list-group-item-override`}>
                         <i className="fas fa-hashtag pe-1"/></a>
-                    <a href="../../../../public/tuiter/notifications.html"
+                    <a href="notifications"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'notifications' ? 'active' : ""}`}>
                         <i className="fas fa-bell pe-2"/></a>
-                    <a href="../../../../public/tuiter/messages.html"
+                    <a href="messages"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'messages' ? 'active' : ""}`}
                        aria-disabled="true">
                         <i className="fas fa-inbox pe-1"/></a>
-                    <a href="../../../../public/tuiter/bookmarks.html"
+                    <a href="bookmarks"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'bookmarks' ? 'active' : ""}`}>
                         <i className="fas fa-bookmark pe-2"/></a>
-                    <a href="../../../../public/tuiter/lists.html"
+                    <a href="lists"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'lists' ? 'active' : ""}`}>
                         <i className="fas fa-list-ul pe-2"/></a>
-                    <a href="../../../../public/tuiter/profile.html"
+                    <a href="profile"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'profile' ? 'active' : ""}`}>
                         <i className="fas fa-user spe-2"/></a>
@@ -273,32 +275,32 @@ const NavigationSidebar = (
                        aria-current="true">
                         <i className="fab fa-twitter"/>
                     </a>
-                    <a href="../../../../public/tuiter/home.html"
+                    <a href="home"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'home' ? 'active' : ""}`}>
                         <i className="fas fa-home pe-1"/></a>
-                    <a href="../../../../public/tuiter/explore.html"
+                    <a href="explore"
                        className={`list-group-item list-group-item-action ${active === 'explore'
                            ? 'active' : ""} wd-list-group-item-override`}>
                         <i className="fas fa-hashtag pe-1"/></a>
-                    <a href="../../../../public/tuiter/notifications.html"
+                    <a href="notifications"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'notifications' ? 'active' : ""}`}>
                         <i className="fas fa-bell pe-2"/></a>
-                    <a href="../../../../public/tuiter/messages.html"
+                    <a href="messages"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'messages' ? 'active' : ""}`}
                        aria-disabled="true">
                         <i className="fas fa-inbox pe-1"/></a>
-                    <a href="../../../../public/tuiter/bookmarks.html"
+                    <a href="bookmarks"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'bookmarks' ? 'active' : ""}`}>
                         <i className="fas fa-bookmark pe-2"/></a>
-                    <a href="../../../../public/tuiter/lists.html"
+                    <a href="lists"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'lists' ? 'active' : ""}`}>
                         <i className="fas fa-list-ul pe-2"/></a>
-                    <a href="../../../../public/tuiter/profile.html"
+                    <a href="profile"
                        className={`list-group-item list-group-item-action wd-list-group-item-override
                        ${active === 'profile' ? 'active' : ""}`}>
                         <i className="fas fa-user spe-2"/></a>

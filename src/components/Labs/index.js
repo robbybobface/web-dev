@@ -4,11 +4,13 @@ import Classes from "./Classes";
 import Styles from "./Styles/styles";
 import ConditionalOutput from "./ConditionalOutput/index.js";
 import TodoList from "./Todo/TodoList.js";
+import ReduxExamples from "./ReduxExamples";
 
 const Index = () => {
     return (
         <>
             <h1>Labs</h1>
+            <ReduxExamples/>
             <ConditionalOutput/>
             <Styles/>
             <Classes/>

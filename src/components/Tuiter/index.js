@@ -43,16 +43,16 @@ const Tuiter = () => {
                         <WhoToFollowList/>
                     </div>
                 </div>
-            </Provider>
 
-            {/*<ExploreScreen/>*/}
-            <h1>React Links</h1>
-            <Link to="/hello">
-                Hello
-            </Link> |
-            <Link to="/labs">
-                Labs
-            </Link>
+
+                <h1>React Links</h1>
+                <Link to="/hello">
+                    Hello
+                </Link> |
+                <Link to="/labs">
+                    Labs
+                </Link>
+            </Provider>
         </>
     );
 };

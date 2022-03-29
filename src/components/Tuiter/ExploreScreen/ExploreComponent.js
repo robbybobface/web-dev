@@ -20,27 +20,27 @@ const ExploreComponent = (
                     <li className="nav-item">
                         <a className={`nav-link wd-override-nav-link ${active === 'for-you'
                             ? 'active' : ""}`}
-                           href="../../../../public/tuiter/for-you.html">For you</a>
+                           href="../../../../public/tuiter/old-for-you.html">For you</a>
                     </li>
                     <li className="nav-item">
                         <a className={`nav-link wd-override-nav-link ${active === 'trending'
                             ? 'active' : ""}`}
-                           href="../../../../public/tuiter/trending.html">Trending</a>
+                           href="../../../../public/tuiter/old-trending.html">Trending</a>
                     </li>
                     <li className="nav-item">
                         <a className={`nav-link wd-override-nav-link ${active === 'news' ? 'active'
                             : ""}`}
-                           href="../../../../public/tuiter/news.html">News</a>
+                           href="../../../../public/tuiter/old-news.html">News</a>
                     </li>
                     <li className="nav-item">
                         <a className={`nav-link wd-override-nav-link ${active === 'sports'
                             ? 'active' : ""}`}
-                           href="../../../../public/tuiter/sports.html">Sports</a>
+                           href="../../../../public/tuiter/old-sports.html">Sports</a>
                     </li>
                     <li className="nav-item">
                         <a className={`nav-link wd-override-nav-link ${active === 'entertainment'
                             ? 'active' : ""}`}
-                           href="../../../../public/tuiter/entertainment.html">Entertainment</a>
+                           href="../../../../public/tuiter/old-entertainment.html">Entertainment</a>
                     </li>
                 </ul>
             </div>
@@ -49,22 +49,22 @@ const ExploreComponent = (
                     <li className="nav-item">
                         <a className={`nav-link wd-override-nav-link ${active === 'for-you'
                             ? 'active' : ""}`}
-                           href="../../../../public/tuiter/for-you.html">For you</a>
+                           href="../../../../public/tuiter/old-for-you.html">For you</a>
                     </li>
                     <li className="nav-item">
                         <a className={`nav-link wd-override-nav-link ${active === 'trending'
                             ? 'active' : ""}`}
-                           href="../../../../public/tuiter/trending.html">Trending</a>
+                           href="../../../../public/tuiter/old-trending.html">Trending</a>
                     </li>
                     <li className="nav-item">
                         <a className={`nav-link wd-override-nav-link ${active === 'news' ? 'active'
                             : ""}`}
-                           href="../../../../public/tuiter/news.html">News</a>
+                           href="../../../../public/tuiter/old-news.html">News</a>
                     </li>
                     <li className="nav-item">
                         <a className={`nav-link wd-override-nav-link ${active === 'sports'
                             ? 'active' : ""}`}
-                           href="../../../../public/tuiter/sports.html">Sports</a>
+                           href="../../../../public/tuiter/old-sports.html">Sports</a>
                     </li>
                 </ul>
             </div>

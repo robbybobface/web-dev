@@ -15,17 +15,21 @@ function App() {
             <div className="container">
                 <Routes>
                     <Route path="/">
-                        <Route index element={<Labs/>}/>
+                        <Route index exact={true} element={<Labs/>}/>
                         <Route path="labs" exact={true} element={<Labs/>}/>
                         <Route path="hello"
                                element={<HelloWorld/>}/>
                         <Route path="tuiter"
+                               exact={true}
                                element={<Tuiter/>}>
                             <Route index
+                                   exact={true}
                                    element={<HomeScreen/>}/>
                             <Route path="home"
+                                   exact={true}
                                    element={<HomeScreen/>}/>
                             <Route path="explore"
+                                   exact={true}
                                    element={<ExploreComponent/>}/>
                         </Route>
                     </Route>

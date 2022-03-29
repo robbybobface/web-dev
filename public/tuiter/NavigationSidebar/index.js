@@ -7,10 +7,10 @@ const NavigationSidebar = () => {
                      aria-current="true">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="../home.html" 
+                    <a href="../old-home.html" 
                     class="list-group-item list-group-item-action wd-list-group-item-override">
                       <i class="fas fa-home ms-0 pe-1"></i>Home</a>
-                    <a href="../explore.html" 
+                    <a href="../old-explore.html" 
                     class="list-group-item list-group-item-action active wd-list-group-item-override">
                       <i class="fas fa-hashtag pe-2"></i>Explore</a>
                       <a href="../notifications.html"
@@ -50,9 +50,9 @@ const NavigationSidebar = () => {
                      aria-current="true">
                     <i class="fab fa-twitter"></i>
                   </a>
-                  <a href="../home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
+                  <a href="../old-home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-home ms-0 pe-1"></i>Home</a>
-                  <a href="../explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
+                  <a href="../old-explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
                     <i class="fas fa-hashtag pe-2"></i>Explore</a>
                   <a href="../notifications.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
@@ -91,9 +91,9 @@ const NavigationSidebar = () => {
                      aria-current="true">
                     <i class="fab fa-twitter"></i>
                   </a>
-                  <a href="../home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
+                  <a href="../old-home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
                     <i class="fas fa-home ms-0 pe-1"></i></a>
-                  <a href="../explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
+                  <a href="../old-explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
                     <i class="fas fa-hashtag ms-1 pe-1"></i></a>
                   <a href="../notifications.html"
                      class="list-group-item list-group-item-action wd-list-group-item-override">
@@ -132,9 +132,9 @@ const NavigationSidebar = () => {
                     aria-current="true">
                    <i class="fab fa-twitter"></i>
                  </a>
-                 <a href="../home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
+                 <a href="../old-home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-home pe-1"></i></a>
-                 <a href="../explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
+                 <a href="../old-explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
                    <i class="fas fa-hashtag pe-1"></i></a>
                  <a href="../notifications.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override">
@@ -173,9 +173,9 @@ const NavigationSidebar = () => {
                     aria-current="true">
                    <i class="fab fa-twitter"></i>
                  </a>
-                 <a href="../home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
+                 <a href="../old-home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
                    <i class="fas fa-home pe-1"></i></a>
-                 <a href="../explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
+                 <a href="../old-explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
                    <i class="fas fa-hashtag pe-1"></i></a>
                  <a href="../notifications.html"
                     class="list-group-item list-group-item-action wd-list-group-item-override">
@@ -214,9 +214,9 @@ const NavigationSidebar = () => {
                    aria-current="true">
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a href="../home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
+                <a href="../old-home.html" class="list-group-item list-group-item-action wd-list-group-item-override">
                   <i class="fas fa-home pe-1"></i></a>
-                <a href="../explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
+                <a href="../old-explore.html" class="list-group-item list-group-item-action active wd-list-group-item-override">
                   <i class="fas fa-hashtag pe-1"></i></a>
                 <a href="../notifications.html"
                    class="list-group-item list-group-item-action wd-list-group-item-override">

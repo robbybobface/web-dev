@@ -1,17 +1,29 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
+import { createTuit } from "../../../actions/tuit-actions";
 import TextareaAutosize from 'react-textarea-autosize';
 
 const WhatsHappening = () => {
-    let [ whatsHappening, setWhatsHappening ]
-        = useState('');
+    // let [ whatsHappening, setWhatsHappening ]
+    //     = useState('');
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
-        dispatch({
-            type: 'create-tuit',
-            tuit: whatsHappening
+        createTuit(dispatch, newTuit).then(r => console.log('tuit created'));
+        setVal(() => "");
+        setNewTuit({
+            ...newTuit,
+            tuit: 'New Tuit'
         });
     };
+    const textareaHandler = (e) => {
+        setNewTuit({
+            ...newTuit,
+            tuit: e.target.value
+        });
+        setVal(e.target.value);
+    };
+    const [ val, setVal ] = useState('');
+    const [ newTuit, setNewTuit ] = useState({ tuit: 'New tuit' });
     return (
         <>
             <div className="wd-whats-happening-container">
@@ -19,14 +31,13 @@ const WhatsHappening = () => {
                      src="https://pbs.twimg.com/profile_images/1502305122663157763/qbK0Ghl4_400x400.jpg"/>
                 <div className="wd-whats-happening-content">
                     <div className="wd-textarea-container">
-                        <TextareaAutosize className="wd-whats-happening"
-                                          defaultValue="What's Happening?"
+                        <TextareaAutosize id="wd-whats-happening"
+                                          className="wd-whats-happening"
                                           placeholder="What's Happening?"
-                                          onChange={(event) =>
-                                              setWhatsHappening(event.target.value)}
-                                          value={whatsHappening}
+                                          onChange={e => textareaHandler(e)}
                                           maxLength="160"
                                           minRows={2}
+                                          value={val}
                                           style={{
                                               width: "100%",
                                               color: "white",

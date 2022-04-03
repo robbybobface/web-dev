@@ -2,12 +2,11 @@ import React from "react";
 import '../Styles/explore.css';
 import { useDispatch } from "react-redux";
 import TuitStats from "./TuitStats";
+import { deleteTuit } from "../../../actions/tuit-actions";
 
 const TuitListItem = ({ tuit }) => {
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({ type: 'delete-tuit', tuit });
-    };
+
     return (
         <>
             <div className="wd-tuit-bookmarks">
@@ -25,7 +24,7 @@ const TuitListItem = ({ tuit }) => {
                                 <div className="wd-tuit-details">@{tuit.handle} {"\u16EB"} {tuit.time}</div>
                             </div>
                             <div className="wd-tuit-options">
-                                <i onClick={() => deleteTuit(tuit)}
+                                <i onClick={() => deleteTuit(dispatch, tuit)}
                                    className="fa-solid fa-x"/>
                             </div>
                         </div>

@@ -198,7 +198,7 @@
   font-size: 15px;
 }
 
-.fa-comment, .fa-retweet, .fa-heart, .fa-share-square {
+.fa-comment, .fa-retweet, .fa-heart, .fa-share-square, .fa-thumbs-up, .fa-thumbs-down {
   color: rgb(110, 118, 125);
   font-size: 15px;
   padding-right: 12px;

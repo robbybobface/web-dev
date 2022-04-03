@@ -31,7 +31,7 @@ const TuitStats = ({ tuit }) => {
                                         stats: {
                                             comments: tuit.stats.comments,
                                             retuits: tuit.stats.retuits,
-                                            likes: tuit.stats.likes - 1,
+                                            likes: parseInt((tuit.stats.likes - 1).toString()),
                                             dislikes: tuit.stats.dislikes
                                         }
                                     })}
@@ -48,7 +48,7 @@ const TuitStats = ({ tuit }) => {
                                         stats: {
                                             comments: tuit.stats.comments,
                                             retuits: tuit.stats.retuits,
-                                            likes: tuit.stats.likes + 1,
+                                            likes: parseInt(tuit.stats.likes + 1),
                                             dislikes: tuit.stats.dislikes
                                         }
                                     })}
@@ -70,7 +70,7 @@ const TuitStats = ({ tuit }) => {
                                             comments: tuit.stats.comments,
                                             retuits: tuit.stats.retuits,
                                             likes: tuit.stats.likes,
-                                            dislikes: tuit.stats.dislikes - 1
+                                            dislikes: parseInt((tuit.stats.dislikes - 1).toString())
                                         }
                                     })}
                                    className="fa-solid fa-thumbs-down"
@@ -87,7 +87,7 @@ const TuitStats = ({ tuit }) => {
                                             comments: tuit.stats.comments,
                                             retuits: tuit.stats.retuits,
                                             likes: tuit.stats.likes,
-                                            dislikes: tuit.stats.dislikes + 1
+                                            dislikes: parseInt(tuit.stats.dislikes + 1)
                                         }
                                     })}
                                    className="fa-regular fa-thumbs-down"/></a>

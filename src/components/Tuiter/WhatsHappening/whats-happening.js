@@ -9,7 +9,7 @@ const WhatsHappening = () => {
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
         createTuit(dispatch, newTuit).then(r => console.log('tuit created'));
-        setVal(() => "");
+        setVal(() => '');
         setNewTuit({
             ...newTuit,
             tuit: 'New Tuit'
@@ -21,6 +21,12 @@ const WhatsHappening = () => {
             tuit: e.target.value
         });
         setVal(e.target.value);
+        if (e.target.value === '') {
+            setNewTuit({
+                ...newTuit,
+                tuit: 'New Tuit'
+            });
+        }
     };
     const [ val, setVal ] = useState('');
     const [ newTuit, setNewTuit ] = useState({ tuit: 'New tuit' });

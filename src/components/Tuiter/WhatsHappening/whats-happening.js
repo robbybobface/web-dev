@@ -12,13 +12,14 @@ const WhatsHappening = () => {
         setVal(() => '');
         setNewTuit({
             ...newTuit,
-            tuit: 'New Tuit'
+            tuit: 'New Tuit',
         });
     };
     const textareaHandler = (e) => {
         setNewTuit({
             ...newTuit,
-            tuit: e.target.value
+            tuit: e.target.value,
+            time: Date.now()
         });
         setVal(e.target.value);
         if (e.target.value === '') {

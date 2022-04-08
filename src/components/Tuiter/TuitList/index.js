@@ -8,11 +8,11 @@ const TuitList = () => {
     const dispatch = useDispatch();
     useEffect(() =>
             findAllTuits(dispatch),
-        []);
+        [ tuits.length ]);
     return (
         <ul className="ttr-tuits list-group">
             {
-                tuits.map && tuits.map(tuit =>
+                tuits.map && tuits.slice(0).reverse().map(tuit =>
                     <TuitListItem key={tuit._id}
                                   tuit={tuit}/>)
             }

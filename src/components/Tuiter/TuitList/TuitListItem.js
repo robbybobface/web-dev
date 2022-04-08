@@ -1,4 +1,5 @@
 import React from "react";
+import moment from "moment";
 import '../Styles/explore.css';
 import { useDispatch } from "react-redux";
 import TuitStats from "./TuitStats";
@@ -21,7 +22,7 @@ const TuitListItem = ({ tuit }) => {
                                     <i className="fas fa-certificate fa-stack-1x"/>
                                     <i className="fas fa-check fa-stack-1x"/>
                                 </span> : '\u00a0'}
-                                <div className="wd-tuit-details">@{tuit.handle} {"\u16EB"} {tuit.time}</div>
+                                <div className="wd-tuit-details">@{tuit.handle} {"\u16EB"} {moment(tuit.time).fromNow()}</div>
                             </div>
                             <div className="wd-tuit-options">
                                 <i onClick={() => deleteTuit(dispatch, tuit)}
